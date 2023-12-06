@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito+Sans:opsz,wght@6..12,500&display=swap');
+
+h1{
+    /* color: red; */
+    /* color: #f94fcf; go to google and type hex color code */
+    /* color: rgb(125, 234, 75); */
+    /* color: rgba(234, 15, 63, 0.835);   alpha is for opacity*/
+    color: hsl(130, 35%, 70%);
+}
+p{
+    font-family: Merriweather ;
+}
+li{
+    font-family: Nunito Sans;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .box{
+            border: 3px solid blue;
+            /* display: block; */
+        }
+        .box2{
+            display: inline;
+            padding: 10px;
+            margin: 10px;
+        }
+        .box3{
+            /* display: inline-block; */
+            border: 3px solid red;
+            padding: 100px;
+            margin: 100px;
+            /* visibility: hidden; */
+        }
+        .box4{
+            display: block;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        This a block with bolck property
+    </div>
+    <div class="box box2">
+        this is block with display property inline
+    </div>
+    <div class="box box2 box3">
+        this is another box with display property inline.
+    </div>
+    <span class="box box4">this is span tag</span>
+</body>
+</html>

@@ -1,0 +1,34 @@
+/* *{
+    background-color: palevioletred;
+} */
+div{
+    /* color: whitesmoke; */
+    size: 3px;
+    background-color: grey;
+}
+.aqua{
+    background-color: aqua;
+    color: black;
+}
+
+div>p{
+    background-color: chartreuse;
+}
+.gray p{
+    background-color: burlywood;
+}
+/* Psuedo Selector */
+
+a:visited{
+    color: brown;
+}
+a:link{
+    color: aqua;
+    /* background-color: pink; */
+}
+a:active{
+    background-color: red;
+}
+a:hover{
+    background-color: green;
+}

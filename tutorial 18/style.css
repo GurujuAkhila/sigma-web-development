@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    background-color: aquamarine;
+}
+.box1{
+    color: rgb(11, 11, 11);
+    margin: 30px;
+    border: 3px solid black;
+    padding: 20px;
+    height: 200px;
+    box-sizing: border-box;
+}
+/* MARGIN COLLAPSE */
+/* MAX MARGIN WILL BE CONSIDERED AND WILL HAVE COMMON SPACE */
+.box2{
+    color: brown;
+    margin: 10px;
+    border: 3px solid black;
+    padding: 20px;
+    height: 200px;
+    box-sizing: border-box;
+}

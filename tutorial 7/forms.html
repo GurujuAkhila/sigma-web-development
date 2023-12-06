@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About forms</title>
+</head>
+
+<body>
+    <form action="post">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter Username" required>
+        </div>
+        <div>
+            <input type="text" id="roll" placeholder="Enter Roll Number">
+            <label for="roll">Roll Number</label>
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+        </div>
+        
+        <div>
+            <input type="checkbox" id="select">
+            <label for="select">Agree for conditions</label>
+        </div>
+        <div>
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter your comments"></textarea>
+        </div>
+        <div>
+            <select name="fruits" id="choose">
+                <option value="Apple">Apple</option>
+                <option value="Banana">Banana</option>
+                <option value="Orange">Orange</option>
+            </select>
+            
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity in CSS</title>
+    <style>
+        /* specificity = 1 */
+        h1{
+            color: blue;
+        }
+        /* specificity = 11 */
+        h1.yellow{
+            color: chocolate;
+        }
+
+        /* specificity = 10 */
+        .yellow{
+            color: yellow;
+        }
+
+        /* specificity = 10 */
+        .red{
+            color: red;
+        }
+
+        /* specificity = 10 */
+        .green{
+            color: green;
+        }
+
+        /* specificity = 10 */
+        [data = a]{
+            color: aqua;
+        }
+
+        /* a .harryclass .rohan-class [href] :hover{ */
+            /* specificity = 1+10+10+10+10(psuedo class) */
+        /* } */
+
+    </style>
+</head>
+<body>
+
+    <h1 class="yellow red green" data="a">CSS Specificity</h1>
+
+  <!--INLINE(100) > ID SELECTOR(50) > CLASS/ATTRIBUTE SELECTOR(10) > ELEMENT SELECTOR(1) > UNIVERSAL(0)-->
+</body>
+</html>
